@@ -12,6 +12,12 @@
 		58312F491E5CBF4000B2D7E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58312F471E5CBF4000B2D7E0 /* Main.storyboard */; };
 		58312F4B1E5CBF4000B2D7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58312F4A1E5CBF4000B2D7E0 /* Assets.xcassets */; };
 		58312F4E1E5CBF4000B2D7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58312F4C1E5CBF4000B2D7E0 /* LaunchScreen.storyboard */; };
+		58312F7D1E5CE46900B2D7E0 /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58312F7C1E5CE46900B2D7E0 /* AAPLCameraViewController.m */; };
+		58312F801E5CE47800B2D7E0 /* AAPLPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58312F7F1E5CE47800B2D7E0 /* AAPLPreviewView.m */; };
+		588E81541E5DEEF8004FF379 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E81531E5DEEF8004FF379 /* AVCamPreviewView.m */; };
+		588E81571E5DEF0D004FF379 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E81561E5DEF0D004FF379 /* AVCamCameraViewController.m */; };
+		588E815A1E5DEFA7004FF379 /* AVCamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E81591E5DEFA7004FF379 /* AVCamAppDelegate.m */; };
+		588E815D1E5DEFBC004FF379 /* AVCamPhotoCaptureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E815C1E5DEFBC004FF379 /* AVCamPhotoCaptureDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,19 @@
 		58312F4A1E5CBF4000B2D7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58312F4D1E5CBF4000B2D7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58312F4F1E5CBF4000B2D7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58312F551E5CD5D400B2D7E0 /* SnapchatClone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapchatClone-Bridging-Header.h"; sourceTree = "<group>"; };
+		58312F7B1E5CE46900B2D7E0 /* AAPLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraViewController.h; sourceTree = "<group>"; };
+		58312F7C1E5CE46900B2D7E0 /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
+		58312F7E1E5CE47800B2D7E0 /* AAPLPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLPreviewView.h; sourceTree = "<group>"; };
+		58312F7F1E5CE47800B2D7E0 /* AAPLPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLPreviewView.m; sourceTree = "<group>"; };
+		588E81521E5DEEF8004FF379 /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
+		588E81531E5DEEF8004FF379 /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
+		588E81551E5DEF0D004FF379 /* AVCamCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCameraViewController.h; sourceTree = "<group>"; };
+		588E81561E5DEF0D004FF379 /* AVCamCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCameraViewController.m; sourceTree = "<group>"; };
+		588E81581E5DEFA7004FF379 /* AVCamAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamAppDelegate.h; sourceTree = "<group>"; };
+		588E81591E5DEFA7004FF379 /* AVCamAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamAppDelegate.m; sourceTree = "<group>"; };
+		588E815B1E5DEFBC004FF379 /* AVCamPhotoCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPhotoCaptureDelegate.h; sourceTree = "<group>"; };
+		588E815C1E5DEFBC004FF379 /* AVCamPhotoCaptureDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPhotoCaptureDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +73,43 @@
 		58312F421E5CBF4000B2D7E0 /* SnapchatClone */ = {
 			isa = PBXGroup;
 			children = (
+				588E815B1E5DEFBC004FF379 /* AVCamPhotoCaptureDelegate.h */,
+				588E815C1E5DEFBC004FF379 /* AVCamPhotoCaptureDelegate.m */,
+				588E81581E5DEFA7004FF379 /* AVCamAppDelegate.h */,
+				588E81591E5DEFA7004FF379 /* AVCamAppDelegate.m */,
+				58312F5D1E5CD63700B2D7E0 /* Controller */,
+				58312F5C1E5CD62F00B2D7E0 /* View */,
 				58312F431E5CBF4000B2D7E0 /* AppDelegate.swift */,
-				58312F451E5CBF4000B2D7E0 /* CameraVC.swift */,
 				58312F471E5CBF4000B2D7E0 /* Main.storyboard */,
 				58312F4A1E5CBF4000B2D7E0 /* Assets.xcassets */,
 				58312F4C1E5CBF4000B2D7E0 /* LaunchScreen.storyboard */,
 				58312F4F1E5CBF4000B2D7E0 /* Info.plist */,
+				58312F551E5CD5D400B2D7E0 /* SnapchatClone-Bridging-Header.h */,
 			);
 			path = SnapchatClone;
+			sourceTree = "<group>";
+		};
+		58312F5C1E5CD62F00B2D7E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				588E81521E5DEEF8004FF379 /* AVCamPreviewView.h */,
+				588E81531E5DEEF8004FF379 /* AVCamPreviewView.m */,
+				58312F7E1E5CE47800B2D7E0 /* AAPLPreviewView.h */,
+				58312F7F1E5CE47800B2D7E0 /* AAPLPreviewView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		58312F5D1E5CD63700B2D7E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				588E81551E5DEF0D004FF379 /* AVCamCameraViewController.h */,
+				588E81561E5DEF0D004FF379 /* AVCamCameraViewController.m */,
+				58312F7B1E5CE46900B2D7E0 /* AAPLCameraViewController.h */,
+				58312F7C1E5CE46900B2D7E0 /* AAPLCameraViewController.m */,
+				58312F451E5CBF4000B2D7E0 /* CameraVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +145,7 @@
 					58312F3F1E5CBF4000B2D7E0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = D27MD83NZD;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +188,12 @@
 			files = (
 				58312F461E5CBF4000B2D7E0 /* CameraVC.swift in Sources */,
 				58312F441E5CBF4000B2D7E0 /* AppDelegate.swift in Sources */,
+				588E81571E5DEF0D004FF379 /* AVCamCameraViewController.m in Sources */,
+				588E815A1E5DEFA7004FF379 /* AVCamAppDelegate.m in Sources */,
+				58312F7D1E5CE46900B2D7E0 /* AAPLCameraViewController.m in Sources */,
+				58312F801E5CE47800B2D7E0 /* AAPLPreviewView.m in Sources */,
+				588E81541E5DEEF8004FF379 /* AVCamPreviewView.m in Sources */,
+				588E815D1E5DEFBC004FF379 /* AVCamPhotoCaptureDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,11 +314,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = D27MD83NZD;
 				INFOPLIST_FILE = SnapchatClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mistik.SnapchatClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnapchatClone/SnapchatClone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,11 +331,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = D27MD83NZD;
 				INFOPLIST_FILE = SnapchatClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mistik.SnapchatClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SnapchatClone/SnapchatClone-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
