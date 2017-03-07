@@ -1,9 +1,9 @@
 //
 //  Header.h
-//  DevChat
+//  SnapchatClone
 //
-//  Created by Mark Price on 7/12/16.
-//  Copyright © 2016 Devslopes. All rights reserved.
+//  Created by Mustafa Buyukcelebi on 23.02.2017.
+//  Copyright © 2017 Mustafa Buyukcelebi. All rights reserved.
 //
 
 #ifndef Header_h
@@ -16,10 +16,10 @@
 -(void)shouldEnableCameraUI:(BOOL)enable;
 -(void)canStartRecording;
 -(void)recordingHasStarted;
--(void)videoRecordingComplete:(NSURL*)videoURL;
--(void)videoRecordingFailed;
--(void)snapshotTaken:(NSData*)snapshotData;
--(void)snapshotFailed;
+//-(void)videoRecordingComplete:(NSURL*)videoURL;
+//-(void)videoRecordingFailed;
+//-(void)snapshotTaken:(NSData*)snapshotData;
+//-(void)snapshotFailed;
 
 @end
 

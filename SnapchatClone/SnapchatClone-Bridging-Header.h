@@ -4,5 +4,5 @@
 
 #import "AAPLCameraViewController.h"
 #import "AAPLPreviewView.h"
-#import "AVCamCameraViewController.h"
-#import "AVCamPreviewView.h"
+#import "AAPLCameraVCDelegate.h"
+
